@@ -104,6 +104,8 @@ body {
   top: 15px;
 }
 .toolBarText{
+  position: absolute;
+  width: 100%;
   /* body text */
   font-family: 'Open Sans', sans-serif;
   font-style : light;
@@ -115,7 +117,6 @@ body {
   top: 20px;
 }
 #CS {
-  width: 131px;
   height: 28px;
   left: 393px;
 }
@@ -127,23 +128,19 @@ body {
   top: 22px;
 }
 #FS {
-  width: 131px;
   height: 28px;
   left: 568px;
   top: 20px;
 }
 #FaS{
-width: 115px;
 height: 28px;
 left: 753px;
 }
 #Co {
-width: 71px;
 height: 28px;
 left: 923px;
 }
 #Mo {
-width: 43px;
 height: 28px;
 left: 1047px;
 }
@@ -165,22 +162,22 @@ left: 1047px;
   position: absolute;
   width: 100%;
   height: 100px;
-  top: 10px;
+  top: 70px;
 }
-.div {
+
+.div.Upd {
   position: absolute;
   width: 100%;
   height: 45px;
   left: 0px;
-  top: 560px;
+  top: 571px;
   background: #00A6B7;
-  opacity: 0.9;
+  opacity: 90%;
 }
 .updateTitle{
   position: absolute;
-  width: 100%;
-  height: 30px;
-  left: 570px;
+  left: 581px;
+  top:10px;
   font-family: TheSans;
   font-style: normal;
   font-weight: normal;
@@ -189,7 +186,7 @@ left: 1047px;
   text-transform: uppercase;
   color: #FFFFFF;
 }
-#eventList{
+.row.eventList{
   position: absolute;
   width: 957px;
   height: 77px;
@@ -240,20 +237,23 @@ left: 1047px;
 .row.featurette.MD{
   position: absolute;
   top: 800px;
-}
-#MD {
-  position: absolute;
-  width: 360px;
-  height: 108px;
+  width: 100%;
   left: 0px;
-  background: #00A6B7;
-  opacity: 0.9;
+  top: 720px;
 }
-#MDimage{
-  position: absolute;
+.col-md-5.MDimage{
   width: 684px;
   height: 463px;
-  left: 0px;
+  z-index: 1;
+}
+.col-md-5.MD {
+  position: absolute;
+  top: 355px;
+  width: 360px;
+  height: 108px;
+  background: #00A6B7;
+  opacity: 0.9;
+  z-index: 2;
 }
 .MDabove10 {
     font-family: TheSans;
@@ -280,21 +280,23 @@ left: 1047px;
   font-size: 24px;
   line-height: 30px;
 }
-#MDtext{
-  width: 640px;
+.col-md-7.MDtext{
+  position: absolute;
+  width: 600px;
   height: 433px;
-  left: 64px;
-  top: 162px;
+  left: 640px;
+  top: 58px;
+  font-style: normal;
   background: #F5F6FA;
+  z-index: 3;
 }
-.MDtext{
+.MDdegree {
   position: absolute;
   left: 120px;
-  font-style: normal;
+  font-family: 'Open Sans', sans-serif;
 }
 #MDtitle{
-  width: 250px;
-  height: 80px;
+  width: 100%;
   top: 94px;
   /* H1 */
   font-family: TheSans;
@@ -305,11 +307,9 @@ left: 1047px;
   color: #00A6B7;
 }
 #MDdes{
-  width: 344px;
-  height: 84px;
-  top: 184px;
+  width: 444px;
+  top: 164px;
   /* body text */
-  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 18px;
   line-height: 28px;
@@ -317,58 +317,62 @@ left: 1047px;
   color: #605F5F;
 }
 #MDbutton{
-height: 41px;
-top: 304px;
-/*text inside button*/
-font-family: 'Open Sans', sans-serif;
-font-weight: 600;
-font-size: 16px;
-line-height: 31px;
-text-transform: capitalize;
-color: #00A6B7;
-padding-left: 37px;
-padding-right: 33px;
-padding-top: 6px;
-/* button rec*/
-background: #FFFFFF;
-border: 2px solid #00A6B7;
+  height: 41px;
+  top: 304px;
+  /*text inside button*/
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 31px;
+  text-transform: capitalize;
+  color: #00A6B7;
+  padding-left: 37px;
+  padding-right: 33px;
+  padding-top: 6px;
+  /* button rec*/
+  background: #FFFFFF;
+  border: 2px solid #00A6B7;
 }
 
+.row.featurette.Vision{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 119px;
+  right: 826px;
+  top: 1296px;
+}
 #logo{
   position: absolute;
   width: 335px;
   height: 184.72px;
-  left: 119px;
-  right: 826px;
-  top: 185px;
 }
 #Vision{
   position: absolute;
   width: 125.01px;
   height: 35.33px;
-  left: 308px;
-  top: 252.15px;
+  left: 306px;
+  top: 30px;
 }
 #Group{
   position: absolute;
   width: 18.81px;
   height: 18.68px;
-  left: 366px;
-  top: 241.15px;
+  left: 332px;
+  top: 10px;
 }
 #Vector{
   position: absolute;
   width: 7.66px;
   height: 7.16px;
-  left: 372.41px;
-  top: 250.31px;
+  left: 338.5px;
+  top: 18px;
 }
 #visionDes{
   position: absolute;
   width: 344px;
   height: 56px;
   left: 306px;
-  top: 316px;
+  top: 80px;
   /* body text */
   font-family: Open Sans;
   font-style: normal;
@@ -379,61 +383,68 @@ border: 2px solid #00A6B7;
   color: #605F5F;
 }
 
+.row.featurette.SM{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 1587px;
+  left: 0px;
+}
 #SMimage{
   position: absolute;
   width: 684.34px;
   height: 463px;
-  right: -45px;
-  top: 403px;
+  left: 595px;
+  z-index: 1;
 }
-#SM{
+.col-md-5.SM{
   position: absolute;
   width: 384.94px;
   height: 115.48px;
-  right: -45px;
-  top: 750.52px;
+  top: 347px;
+  right: 160px;
   background: #00A6B7;
   opacity: 0.9;
-}
-.SM60 {
-    font-family: TheSans;
-    font-style: normal;
-    position: absolute;
-    color: #FFFFFF;
+  z-index: 2;
 }
 #SP{
-  width: 132px;
-  height: 60px;
-  left: 35.29px;
+  position: absolute;
+  left: 10px;
   top: 18px;
   /* h2 */
+  font-family: TheSans;
+  font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 30px;
+  color: #FFFFFF;
 }
 #SM60{
-  width: 131.52px;
-  height: 68.43px;
-  right: 64.16px;
+  position: absolute;
+  right: 0px;
   top: 23.52px;
+  font-family: TheSans;
+  font-style: normal;
   font-size: 64px;
   line-height: 64px;
+  color: #FFFFFF;
 }
-#SMtext{
-  width: 640px;
-  height: 433px;
-  left: 0px;
-  top: 434px;
+.col-md-7.SMtext{
   background: #F5F6FA;
+  z-index: 3;
+  top: 30px;
+  left: 0px;
 }
 .SMtext{
   position: absolute;
-  left: 60px;
+  width: 600px;
+  height: 434px;
   font-style: normal;
 }
 #SMtitle{
-  width: 425px;
-  height: 80px;
+  position: absolute;
+  left: 80px;
+  width: 450px;
   top: 80px;
   /* H1 */
   font-family: TheSans;
@@ -444,8 +455,9 @@ border: 2px solid #00A6B7;
   color: #00A6B7;
 }
 #SMdes{
+  position: absolute;
+  left: 80px;
   width: 454px;
-  height: 112px;
   top: 170px;
   /* body text */
   font-family: 'Open Sans', sans-serif;
@@ -456,29 +468,34 @@ border: 2px solid #00A6B7;
   color: #605F5F;
 }
 #SMbutton{
-height: 41px;
-top: 312px;
-/*text inside button*/
-font-family: 'Open Sans', sans-serif;
-font-weight: 600;
-font-size: 16px;
-line-height: 31px;
-text-transform: capitalize;
-color: #00A6B7;
-padding-left: 37px;
-padding-right: 33px;
-padding-top: 6px;
-/* button rec*/
-background: #FFFFFF;
-border: 2px solid #00A6B7;
+  left: 80px;
+  position: absolute;
+  height: 41px;
+  top: 312px;
+  /*text inside button*/
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 31px;
+  text-transform: capitalize;
+  color: #00A6B7;
+  padding-left: 37px;
+  padding-right: 33px;
+  padding-top: 6px;
+  /* button rec*/
+  background: #FFFFFF;
+  border: 2px solid #00A6B7;
 }
+
+
+
 
 #logoMC{
   position: absolute;
   width: 335px;
   height: 335px;
-  left: 119px;
-  top: 547px;
+  left: 0px;
+  top: 2050px;
 }
 #Sta{
   position: absolute;
@@ -577,7 +594,7 @@ border: 2px solid #00A6B7;
   position: absolute;
   width: 695px;
   height: 645.75px;
-  top: 984px;
+  top: 2519px;
   left: 0px;
 }
 #ElCard{
