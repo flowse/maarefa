@@ -1,0 +1,438 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+.logoToolBar{
+  width: 189.49px;
+  height: 39px;
+}
+
+.row.Upd {
+  background: #00A6B7;
+  opacity: 90%;
+}
+.updateTitle{
+  font-family: TheSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+}
+.eventText{
+  font-family: TheSans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+}
+#eventMonth{
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #00A6B7;
+}
+#eventName{
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  text-transform: capitalize;
+  color: #000000;
+}
+#eventDate{
+  font-size: 36px;
+  line-height: 61px;
+  text-transform: uppercase;
+  color: #00A6B7;
+}
+#eventTime{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 28px;
+  color: #605F5F;
+}
+
+.col-md-5.MDtext{
+  background: #F5F6FA;
+  z-index: 3;
+}
+.MDdegree {
+  font-style: normal;
+  font-family: 'Open Sans', sans-serif;
+}
+#MDtitle{
+  /* H1 */
+  font-family: TheSans;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+  /* the main color */
+  color: #00A6B7;
+}
+#MDdes{
+  /* body text */
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  /* body text color */
+  color: #605F5F;
+}
+#MDbutton{
+  /*text inside button*/
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 31px;
+  text-transform: capitalize;
+  color: #00A6B7;
+  padding-left: 37px;
+  padding-right: 33px;
+  padding-top: 6px;
+  /* button rec*/
+  background: #FFFFFF;
+  border: 2px solid #00A6B7;
+}
+
+.col-md-7.SMtext{
+  background: #F5F6FA;
+  z-index: 3;
+}
+.SMtext{
+  font-style: normal;
+}
+#SMtitle{
+  /* H1 */
+  font-family: TheSans;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+  /* the main color */
+  color: #00A6B7;
+}
+#SMdes{
+  /* body text */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  /* body text color */
+  color: #605F5F;
+}
+#SMbutton{
+  /*text inside button*/
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 31px;
+  text-transform: capitalize;
+  color: #00A6B7;
+  padding-left: 37px;
+  padding-right: 33px;
+  padding-top: 6px;
+  /* button rec*/
+  background: #FFFFFF;
+  border: 2px solid #00A6B7;
+}
+
+.Sta{
+  font-family: TheSans;
+  font-style: normal;
+}
+#ST3000{
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 64px;
+  /* the main color */
+  color: #00A6B7;
+}
+#CurrentS{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  /* body text color */
+  color: #605F5F;
+}
+#ST20{
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 64px;
+  /* the main color */
+  color: #00A6B7;
+}
+#AwardW{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  /* the main color */
+  color: #605F5F;
+}
+#ST5{
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 64px;
+  /* the main color */
+  color: #00A6B7;
+}
+#FMRatio{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  /* the main color */
+  color: #605F5F;
+}
+#ST10{
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 64px;
+  /* the main color */
+  color: #00A6B7;
+}
+#DegC{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  /* the main color */
+  color: #605F5F;
+}
+
+#ElCard{
+  background: #F9F9F9;
+}
+.ElCard{
+  font-family: TheSans;
+  font-style: normal;
+  font-weight: bold;
+}
+#EL{
+  text-transform: capitalize;
+  color: #000000;
+}
+#SupportEL{
+  font-size: 36px;
+  line-height: 40px;
+  /* the main color */
+  color: #00A6B7;
+}
+#ELdesc{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  /* body text color */
+  color: #605F5F;
+}
+#ELbutton{
+  /*text inside button*/
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 31px;
+  text-transform: capitalize;
+  color: #00A6B7;
+  padding-left: 37.95px;
+  padding-right: 33.85px;
+  padding-top: 6px;
+  /* button rec*/
+  background: #FFFFFF;
+  border: 2px solid #00A6B7;
+}
+
+#LibCard{
+  background: #00A6B7;
+}
+.LibCard{
+  color: #FFFFFF;
+  font-family: TheSans;
+  font-style: normal;
+}
+#LDL{
+  /* h2 */
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+#LDLdesc{
+  /* body text */
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+#OppCard{
+  background: #000000;
+}
+.OppCard{
+  font-style: normal;
+  color: #FFFFFF;
+}
+#OppStudents{
+  font-family: TheSans;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+#Oppdes{
+  /* body text */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.col-md-5.AppNow1{
+  z-index: 1;
+}
+.col-md-5.AppNow2{
+  z-index: 2;
+}
+#AppNowtitle{
+  /* H1 */
+  font-family: TheSans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+  /* the main color */
+  color: #00A6B7;
+}
+#AppNowdesc{
+  /* body text */
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  /* body text color */
+  color: #605F5F;
+}
+#AppNowbutton{
+  /*text inside button*/
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 31px;
+  text-transform: capitalize;
+  color: #00A6B7;
+  padding-left: 37px;
+  padding-right: 39px;
+  padding-top: 6px;
+  /* button rec*/
+  background: #FFFFFF;
+  border: 2px solid #00A6B7;
+}
+
+.container.footer{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  right: 0px;
+  top: 4700px;
+  background: #000000;
+  color: #000000;
+}
+#linksFooter{
+  color: #FFFFFF;
+}
+.Footerdesc,
+.col-sm-4.Coll,
+.col-sm-4.Reach,
+.col-sm-4.Here,
+.col-sm-4.MCST,
+.footerCopy,
+.Linkstitle,
+.links{
+  color: #FFFFFF;
+  font-family: TheSans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  text-transform: capitalize;
+}
