@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Carousel Template · Bootstrap</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- ToolBar -->
+    <header>
+  <nav class="toolBar">
+    <img src="image 12.png" alt="" class="logoToolBar">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+            <a class="toolBarText" href="#" id="CS">Current Student <span class="sr-only">(current)</span></a>
+          <input type="image" src="Down.png" alt="" id="downArrow"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+              <a class="dropdown-item" href="#">Dropdown link</a>
+              <a class="dropdown-item" href="#">Dropdown link</a>
+            </div>
+        </li>
+        <li class="nav-item active">
+          <a class="toolBarText" href="#" id="FS">Future Students <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="toolBarText" href="#" id="FaS">Faculty & Staff</a>
+        </li>
+        <li class="nav-item">
+          <a class="toolBarText" href="#" tabindex="-1" aria-disabled="true" id="Co">Contacts</a>
+        </li>
+        <li class="nav-item">
+          <a class="toolBarText" href="#" id="Mo">More</a>
+        </li>
+      </ul>
+      <input type="image" src="map_24px.png" alt="" class="icon">
+      <input type="image" src="united-states-of-america 1.png" alt="" class="lang">
+  </nav>
+</header>
+
+<main role="main">
+  <!-- Videos SlideShow -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+        <div class="container">
+          <div class="carousel-caption text-left">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+        <div class="container">
+          <div class="carousel-caption text-right">
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!-- Univ Updates -->
+  <div class="div">
+    <p class="updateTitle">University Current Updates</p>
+  </div>
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <!-- Events List -->
+  <div class="container marketing">
+    <!-- Three columns of text below the carousel -->
+    <div class="row" id="eventList">
+      <div class="col-sm-4">
+        <div class="row">
+          <p class="eventText" id="eventMonth">Oct</p>
+          <h3 class="eventText" id="eventName">Alicina: Fall Opera</h3>
+        </div>
+        <div class="row">
+          <p class="eventText" id="eventDate">2</p>
+          <p class="eventText" id="eventTime">16:00 pm</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="row">
+          <p class="eventText" id="eventMonth">Oct</p>
+          <h3 class="eventText" id="eventName">Football</h3>
+        </div>
+        <div class="row">
+          <p class="eventText" id="eventDate">2</p>
+          <p class="eventText" id="eventTime">16:00 pm</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="row">
+          <p class="eventText" id="eventMonth">Oct</p>
+          <h3 class="eventText" id="eventName">Music</h3>
+        </div>
+        <div class="row">
+          <p class="eventText" id="eventDate">2</p>
+          <p class="eventText" id="eventTime">16:00 pm</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Majors -->
+    <div class="row featurette">
+      <div class="col-md-5">
+          <img src="Rectangle 54.jpg" alt="" id="MDimage">
+          <div id="MD">
+            <p class="MDabove10" id="above10">10+</p>
+            <h2 class="MDabove10" id="MtoChoose">Majors to choose from</h2>
+          </div>
+      </div>
+      <div class="col-md-7" id="MDtext">
+        <h1 class="MDtext" id="MDtitle">Choose from  10+ degrees</h1>
+        <p class="MDtext" id="MDdes">Almaarefa Colleges for Science and Technology (MCST) consists of three colleges that offers the many degrees</p>
+        <button type="button" name="button" class="MDtext" id="MDbutton">Learn More</button>
+      </div>
+    </div>
+
+    <!-- Vision -->
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <img src="Vision.png" alt="" id="Vision">
+        <img src="Group.png" alt="" id="Group">
+        <img src="Vector.png" alt="" id="Vector">
+        <p id="visionDes">To be a leading private higher education institution in the region</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="image 11.png" alt="" id="logo">
+      </div>
+    </div>
+
+    <!-- Scholership -->
+    <div class="row featurette">
+      <div class="col-md-7" id="SMtext">
+        <h1 class="SMtext" id="SMtitle">Scolarship for all majors/colleges to apply</h1>
+        <p class="SMtext" id="SMdes">Almaarefa Colleges welcomes students of all majors/colleges to apply for tuition scholarship the university is pleased to offer the student of distinction scholarship</p>
+        <button type="button" name="button" class="SMtext" id="SMbutton">Learn More</button>
+      </div>
+        <div class="col-md-5">
+            <img src="Rectangle 66.jpg" alt="" id="SMimage">
+            <div id="SM">
+              <h2 class="SM60" id="SP">Scolarship proportions</h2>
+                <p class="SM60" id="SM60">60%</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Statisticals Info -->
+    <div class="row featurette">
+      <div class="col-sm-6" id="Sta">
+        <div class="row">
+          <div class="Sta">
+            <p id="ST3000">3000</p>
+            <h2 id="CurrentS">Current Students</h2>
+          </div>
+          <div class="Sta">
+            <p id="ST20">20+</p>
+            <h2 id="AwardW">Award Winning</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="Sta">
+            <p id="ST5">50/32</p>
+            <h2 id="FMRatio">Female to male student ratio</h2>
+          </div>
+          <div class="Sta">
+            <p id="ST10">10+</p>
+            <h2 id="DegC">Degrees and Colegees</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="stamp.png" alt="" id="logoMC">
+      </div>
+    </div>
+
+    <!-- E-Learning -->
+    <div class="row featurette">
+      <div class="col-md-5">
+          <img src="Rectangle 54.jpg" alt="" id="ElImg">
+      </div>
+      <div class="col-md-7" id="ElCard">
+        <h3 class="ElCard" id="EL">E-Learning</h3>
+        <h1 class="ElCard" id="SupportEL">Support the students learning with diverse learning</h1>
+        <p class="ElCard" id="ELdesc">Such system offer the students and teaching staff a modern and flexible learning and teaching tool that help the students to increase their learning and achievement.</p>
+        <button type="button" name="button" class="ElCard" id="ELbutton">Learn More</button>
+      </div>
+    </div>
+
+    <!-- Library and Opportunities -->
+    <div class="row featurette">
+      <div class="col-md-7" id="LibCard">
+        <h2 class="LibCard" id="LDL">Library and digital library</h2>
+        <p class="LibCard" id="LDLdesc">The library contains thousands of paper/electronic books, journals, periodicals, etc. in the library shelves and/or via the Saudi digital library SDL.</p>
+      </div>
+      <div class="col-md-7" id="OppCard">
+        <h2 class="OppCard" id="OppStudents">Opportunities for students</h2>
+        <p class="OppCard" id="Oppdes">Scientific Publications Excellence Award</p>
+      </div>
+    </div>
+
+    <!-- Photos SlideShow -->
+    <div id="myCarousel" class="carousel slide photo" data-ride="carousel">
+      <ol class="carousel-indicators photo">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+          <div class="container">
+            <div class="carousel-caption text-left">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+          <div class="container" >
+            <div class="carousel-caption photo" >
+              <img src="Rectangle 79.jpg" alt="" >
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+          <div class="container">
+            <div class="carousel-caption text-right">
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev photo" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next photo" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true" ></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!-- Applay Now -->
+    <!-- E-Learning -->
+    <div class="row featurette">
+      <div class="col-md-5 AppNow1">
+          <img src="Rectangle 74.jpg" alt="" id="Ph1">
+      </div>
+      <div class="col-md-5 AppNow2">
+          <img src="Rectangle 78.jpg" alt="" id="ph2">
+      </div>
+      <div class="col-md-7 AppNow">
+        <h1 id="AppNowtitle">We will happy to see you in our University!</h1>
+        <p id="AppNowdesc">Almaarefa Colleges for Science and Technology (MCST) consists of three colleges that offers the many degrees</p>
+        <button type="button" name="button" id="AppNowbutton">Applay Now</button>
+      </div>
+    </div>
+    <!-- /END THE FEATURETTES -->
+  </div><!-- /.container -->
+
+  <!-- FOOTER -->
+  <footer class="container footer">
+    <div class="row footer">
+      <div class="col-sm-4 footer">
+        <img src="logo.png" alt="" class="logoFooterBar">
+        <p class="Footerdesc">We prepare high caliber participants in a knowledge based society and to motivate creativity, excellence
+          in research, education, and community service.</p>
+          <div class="row footerLinks" id="linksFooter">
+            <div class="row" id="linkList1">
+              <h3 class="Linkstitle">An inside look:</h3>
+              <a href="#" tabindex="-1" aria-disabled="true" class="links" id="link1">About Us</a>
+              <a href="#" tabindex="-1" aria-disabled="true" class="links" id="link2">News Center</a>
+            </div>
+            <div class="row" id="linkList2">
+              <h3 class="Linkstitle">Follow us on:</h3>
+              <a href="#" tabindex="-1" aria-disabled="true" class="links" id="link3">LinkedIn</a>
+              <a href="#" tabindex="-1" aria-disabled="true" class="links" id="link4">Twitter</a>
+              <a href="#" tabindex="-1" aria-disabled="true" class="links" id="link5">Facebook</a>
+            </div>
+            <div class="row" id="linkList3">
+              <h3 class="Linkstitle">Our documents:</h3>
+              <a href="#" tabindex="-1" aria-disabled="true" class="links" id="link6">Policies and Terms</a>
+            </div>
+          </div>
+          <p class="footerCopy">Copyright © 2020 , University of Almaarefa</p>
+      </div>
+        <div class="col-sm-4 Coll">
+            <h3>Our Colleges</h3>
+            <div class="col-sm-4">
+              <a href="#" tabindex="-1" aria-disabled="true" class="links" id="link7">College of Medicine</a>
+              <a href="#" tabindex="-1" aria-disabled="true" class="links" id="link8">College of Pharmacy</a>
+              <a href="#" tabindex="-1" aria-disabled="true" class="links" id="link9">College of Applied Sciences</a>
+            </div>
+        </div>
+        <div class="col-sm-4 Reach">
+          <h3>Reach Us Out</h3>
+          <div class="col-sm-4">
+            <a href="#" tabindex="-1" aria-disabled="true" class="links">920011909</a>
+            <a href="#" tabindex="-1" aria-disabled="true" class="links">014903555</a>
+            <a href="#" tabindex="-1" aria-disabled="true" class="links">Fax: 014903501</a>
+          </div>
+        </div>
+        <div class="col-sm-4 Here">
+          <h3>We Are Here</h3>
+          <div class="col-sm-4">
+            <a href="#" tabindex="-1" aria-disabled="true" class="links">71666 Riyadh 11597</a>
+            <a href="#" tabindex="-1" aria-disabled="true" class="links">info@mcst.edu.sa</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 MCST">
+        <h3>MCST Partners</h3>
+        <div class="row">
+          <div class="col-sm-4 img1">
+            <img src="image 9.png" alt="">
+          </div>
+          <div class="col-sm-4 img2">
+            <img src="image 8.png" alt="">
+          </div>
+          <div class="col-sm-4 img3">
+            <img src="image 10.png" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <p>Human Resources Development Fund</p>
+          </div>
+          <div class="col-sm-4 img2">
+            <p>Ministry of Education</p>
+          </div>
+          <div class="col-sm-4 img3">
+            <p>Social Charity Fund</p>
+          </div>
+        </div>
+  </footer>
+</main>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+</html>
