@@ -161,7 +161,12 @@ left: 1047px;
   left: 1196px;
   top: 22px;
 }
-
+.carousel.slide{
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  top: 10px;
+}
 .div {
   position: absolute;
   width: 100%;
@@ -176,7 +181,6 @@ left: 1047px;
   width: 100%;
   height: 30px;
   left: 570px;
-  top: 10px;
   font-family: TheSans;
   font-style: normal;
   font-weight: normal;
@@ -233,12 +237,15 @@ left: 1047px;
   color: #605F5F;
 }
 
+.row.featurette.MD{
+  position: absolute;
+  top: 800px;
+}
 #MD {
   position: absolute;
   width: 360px;
   height: 108px;
   left: 0px;
-  top: 487px;
   background: #00A6B7;
   opacity: 0.9;
 }
@@ -247,7 +254,6 @@ left: 1047px;
   width: 684px;
   height: 463px;
   left: 0px;
-  top: 132px;
 }
 .MDabove10 {
     font-family: TheSans;
