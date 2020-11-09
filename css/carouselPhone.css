@@ -89,16 +89,189 @@ body {
   }
 }
 
+@media screen and (max-width: 959px) {
+  #myCarousel{
+    width: 220%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  #Upd {
+    width: 240%;
+    margin-left: 22%;
+    margin-right: 20%;
+  }
+  #EventList{
+    width: 240%;
+    margin-left: 22%;
+    margin-right: 20%;
+  }
+  #EvL{
+    width: 20%;
+    margin-left: 5.5%;
+    margin-right: 5.5%;
+  }
+  #eventName{
+    width: 55%;
+  }
+
+  #MDR{
+    width: 240%;
+    margin-left: 22%;
+    margin-right: 20%;
+    margin-top: 10%;
+  }
+  #MDtext{
+    width: 60%;
+  }
+  #MDR div{
+    width: 50%;
+    height: 50%;
+  }
+  #MDR img{
+    width: 100%;
+    height: 100%;
+  }
+
+  #VisionR{
+    width: 240%;
+    margin-left: 22%;
+    margin-right: 20%;
+    margin-top: 10%;
+  }
+  #VisionR div{
+    width: 50%;
+    height: 50%;
+  }
+  #MCVision{
+    width: 100%;
+    height: 100%;
+  }
+
+  #SMR{
+    width: 240%;
+    margin-left: 22%;
+    margin-right: 20%;
+    margin-top: 10%;
+  }
+  #SMtext{
+    width: 60%;
+  }
+  #SMR div{
+    width: 50%;
+    height: 50%;
+  }
+  #SMR img{
+    width: 100%;
+    height: 100%;
+  }
+
+  #StaInfoR{
+    width: 240%;
+    margin-left: 22%;
+    margin-right: 20%;
+    margin-top: 10%;
+  }
+  #Sta{
+    width: 50%;
+  }
+  #STR{
+    width: 150%;
+  }
+  #STList{
+    width: 40%;
+  }
+  #STimg{
+    width: 50%;
+    height: 50%;
+  }
+  #StaInfoR img{
+    width: 100%;
+    height: 100%;
+  }
+
+  #ELR{
+    width: 240%;
+    margin-left: 22%;
+    margin-right: 20%;
+    margin-top: 10%;
+  }
+  #ELtext{
+    width: 60%;
+  }
+  #ELR div{
+    width: 50%;
+    height: 50%;
+  }
+  #ELR img{
+    width: 100%;
+    height: 100%;
+  }
+
+  #LOR{
+    width: 240%;
+    margin-left: 22%;
+    margin-right: 20%;
+    margin-top: 10%;
+  }
+  #LibCard{
+    width: 50%;
+  }
+  #OppCard{
+    width: 50%;
+  }
+
+  #AppR{
+    width: 240%;
+    margin-left: 22%;
+    margin-right: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  #AppRtext{
+    width: 60%;
+  }
+  #AppR div{
+    width: 50%;
+    height: 50%;
+  }
+  #AppR img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .container.footer{
+    width: 240%;
+    margin-left: 22%;
+    margin-right: 20%;
+  }
+}
+
+/* Tool Bar */
+#toolBar{
+  margin-bottom: 1%;
+}
 .logoToolBar{
   width: 189.49px;
   height: 39px;
 }
+.nav-link{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+}
 
-.row.Upd {
+/* Videos Slide Show */
+#myCarousel{
+  margin-top: 1%;
+  margin-bottom: 0%;
+}
+/* Univ Updates */
+#Upd {
   background: #00A6B7;
   opacity: 90%;
-}
-.updateTitle{
   font-family: TheSans;
   font-style: normal;
   font-weight: normal;
@@ -106,39 +279,37 @@ body {
   line-height: 30px;
   text-transform: uppercase;
   color: #FFFFFF;
-  text-align: center;
+  padding-left: 60%;
 }
 .eventText{
   font-family: TheSans;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
+  margin-right: 0px;
+  margin-left: 1px;
 }
 #eventMonth{
-  line-height: 30px;
   text-transform: uppercase;
   color: #00A6B7;
 }
 #eventName{
-  line-height: 24px;
-  /* identical to box height, or 133% */
   text-transform: capitalize;
   color: #000000;
 }
 #eventDate{
   font-size: 36px;
-  line-height: 61px;
   text-transform: uppercase;
   color: #00A6B7;
 }
 #eventTime{
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  line-height: 28px;
   color: #605F5F;
 }
 
-.col-md-5.MDtext{
+/* Mojor Degree */
+#MDtext{
   background: #F5F6FA;
   z-index: 3;
 }
@@ -177,8 +348,29 @@ body {
   background: #FFFFFF;
   border: 2px solid #00A6B7;
 }
+#MDimg{
+  width: 684px;
+  height: 463px;
+}
 
-.col-md-7.SMtext{
+/* Vision */
+#visionDes{
+  /* body text */
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  /* body text color */
+  color: #605F5F;
+}
+#MCVision{
+  width: 305px;
+height: 124.72px;
+}
+
+/* Scholership */
+#SMtext{
   background: #F5F6FA;
   z-index: 3;
 }
@@ -219,13 +411,14 @@ body {
   border: 2px solid #00A6B7;
 }
 
-.Sta{
+/* Statistical Info */
+#Sta{
   font-family: TheSans;
   font-style: normal;
 }
 #ST3000{
   font-weight: normal;
-  font-size: 64px;
+  font-size: 32px;
   line-height: 64px;
   /* the main color */
   color: #00A6B7;
@@ -239,7 +432,7 @@ body {
 }
 #ST20{
   font-weight: normal;
-  font-size: 64px;
+  font-size: 32px;
   line-height: 64px;
   /* the main color */
   color: #00A6B7;
@@ -253,7 +446,7 @@ body {
 }
 #ST5{
   font-weight: normal;
-  font-size: 64px;
+  font-size: 32px;
   line-height: 64px;
   /* the main color */
   color: #00A6B7;
@@ -267,7 +460,7 @@ body {
 }
 #ST10{
   font-weight: normal;
-  font-size: 64px;
+  font-size: 32px;
   line-height: 64px;
   /* the main color */
   color: #00A6B7;
@@ -280,6 +473,7 @@ body {
   color: #605F5F;
 }
 
+/* E-Learning */
 #ElCard{
   background: #F9F9F9;
 }
@@ -321,6 +515,7 @@ body {
   border: 2px solid #00A6B7;
 }
 
+/* Library and Opp */
 #LibCard{
   background: #00A6B7;
 }
@@ -363,6 +558,7 @@ body {
   line-height: 28px;
 }
 
+/* Applay Now */
 .col-md-5.AppNow1{
   z-index: 1;
 }
@@ -406,13 +602,8 @@ body {
   border: 2px solid #00A6B7;
 }
 
+/* Footer */
 .container.footer{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0px;
-  right: 0px;
-  top: 4700px;
   background: #000000;
   color: #000000;
 }
