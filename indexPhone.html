@@ -11,7 +11,7 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
 
     <!-- Bootstrap core CSS -->
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -76,7 +76,7 @@
 </header>
 
 <main role="main">
-
+  <!-- Video Slide Shows -->
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -106,7 +106,6 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-
 
   <!-- Marketing messaging and featurettes
   ================================================== -->
@@ -154,17 +153,20 @@
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
-
     <!-- START THE FEATURETTES -->
     <!-- Mojor Degrees -->
     <div class="row featurette" id="MDR">
-      <div class="col-sm-4">
+      <div class="col-md-7 order-md-1" id="MDRimg">
         <img src="images/Rectangle 54.jpg" alt="" id="MDimg">
+        <div class="col-md-5 MD" id="MDabove10">
+        <p id="above10">10+</p>
+        <h2 id="MtoChoose">Majors to  choose from</h2>
       </div>
-      <div class="col-sm-4" id="MDtext">
-        <h1  class="MDdegree" id="MDtitle">Choose from  10+ degrees</h1>
-        <p  class="MDdegree" id="MDdes">Almaarefa Colleges for Science and Technology (MCST) consists of three colleges that offers the many degrees</p>
-        <button type="button" name="button" class="MDdegree" id="MDbutton">Learn More</button>
+      </div>
+      <div class="col-md-5 order-md-2" id="MDtext">
+        <h1  id="MDtitle">Choose from  10+ degrees</h1>
+        <p   id="MDdes">Almaarefa Colleges for Science and Technology (MCST) consists of three colleges that offers the many degrees</p>
+        <button type="button" name="button" id="MDbutton">Learn More</button>
       </div>
     </div>
 
@@ -188,63 +190,68 @@
         <button type="button" name="button" id="SMbutton">Learn More</button>
       </div>
       <div class="col-sm-4">
-        <img src="images/Rectangle 66.jpg" alt="">
+        <img src="images/Rectangle 66.jpg" alt="" id="SMimg">
+        <div class="col-md-5 MD" id="MDabove10">
+        <p id="above10">60%</p>
+        <h2 id="MtoChoose">Scolarship proportions</h2>
+      </div>
       </div>
     </div>
 
-    <!-- Statistical Info -->
-    <div class="row" id="StaInfoR">
-      <div class="col-sm-4" id="STimg">
-        <img src="images/stamp.png" alt="">
+    <div class="row" id="STR">
+      <div class="col-sm-6">
+        <img src="images/stamp.png" alt="" id="STimg">
       </div>
-      <div class="col-sm-4" id="Sta">
-        <div class="row" id="STR">
-          <div class="col-sm-4" id="STList">
-            <p id="ST3000">3000</p>
-            <h2 id="CurrentS">Current Students</h2>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-sm-4" id="STList">
-            <p id="ST20">20+</p>
-            <h2 id="AwardW">Award Winning</h2>
-          </div><!-- /.col-lg-4 -->
-        </div>
+      <div class="col-sm-6">
         <div class="row">
-          <div class="col-sm-4" id="STList">
-            <p id="ST5">50/32</p>
-            <h2 id="FMRatio">Female to male student ratio</h2>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-sm-4" id="STList">
-            <p id="ST10">10+</p>
-            <h2 id="DegC">Degrees and Colegees</h2>
-          </div><!-- /.col-lg-4 -->
-        </div>
+          <div class="col-sm-6" id="Sta">
+            <p id="STNum">3000</p>
+            <h2 id="StaName">Current Students</h2>
+          </div>
+          <div class="col-sm-6" id="Sta">
+            <p id="STNum">20+</p>
+            <h2 id="StaName">Award Winning</h2>
+          </div>
+          <div class="col-sm-6" id="Sta3">
+            <p id="STNum">50/32</p>
+            <h2 id="StaName">Female to male student ratio</h2>
+          </div>
+          <div class="col-sm-6" id="Sta4">
+            <p id="STNum">10+</p>
+            <h2 id="StaName">Degrees and Colegees</h2>
+          </div>
+      </div>
     </div>
-    </div><!-- /.row -->
+  </div>
+
 
     <!-- E-Learning -->
     <div class="row featurette" id="ELR">
       <div class="col-md-7">
-        <img src="images/Rectangle 54.jpg" alt="">
+        <img src="images/Rectangle 54.jpg" alt="" id="Elimg">
       </div>
       <div class="col-md-5" id="ELtext">
-        <h3 class="ElCard" id="EL">E-Learning</h3>
-        <h1 class="ElCard" id="SupportEL">Support the students learning with diverse learning</h1>
-        <p class="ElCard" id="ELdesc">Such system offer the students and teaching staff a modern and flexible learning and teaching tool that help the students to increase their learning and achievement.</p>
-        <button type="button" name="button" class="ElCard" id="ELbutton">Learn More</button>
+        <h3 id="EL">E-Learning</h3>
+        <h1 id="SupportEL">Support the students learning with diverse learning</h1>
+        <p id="ELdesc">Such system offer the students and teaching staff a modern and flexible learning and teaching tool that help the students to increase their learning and achievement.</p>
+        <button type="button" name="button" id="ELbutton">Learn More</button>
       </div>
     </div>
 
+    <!-- Library and Opportunities -->
         <div class="row featurette" id="LOR">
           <div class="col-sm-4" id="LibCard">
-            <h2 class="LibCard" id="LDL">Library and digital library</h2>
-            <p class="LibCard" id="LDLdesc">The library contains thousands of paper/electronic books, journals, periodicals, etc. in the library shelves and/or via the Saudi digital library SDL.</p>
+            <h2 id="LDL">Library and digital library</h2>
+            <p id="LDLdesc">The library contains thousands of paper/electronic books, journals, periodicals, etc. in the library shelves and/or via the Saudi digital library SDL.</p>
           </div>
           <div class="ccol-sm-4" id="OppCard">
-            <h2 class="OppCard" id="OppStudents">Opportunities for students</h2>
-            <p class="OppCard" id="Oppdes">Scientific Publications Excellence Award</p>
+            <h2 id="OppStudents">Opportunities for students</h2>
+            <p id="Oppdes">Scientific Publications Excellence Award</p>
           </div>
         </div>
 
+      </div><!-- /.container -->
+        <!-- Photo Slide Shows -->
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -254,15 +261,15 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
-                  <img src="images/Rectangle 79.jpg" alt="First slide">
+              <img src="images/Rectangle 79.jpg" alt="First slide">
             </div>
             <div class="carousel-item">
               <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
-                  <img src="images/Rectangle 79.jpg" alt="First slide">
+              <img src="images/Rectangle 79.jpg" alt="First slide">
             </div>
             <div class="carousel-item">
               <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
-                  <img src="images/Rectangle 79.jpg" alt="First slide">
+              <img src="images/Rectangle 79.jpg" alt="First slide">
             </div>
           </div>
           <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -280,7 +287,7 @@
             <img src="images/Rectangle 74.jpg" alt="" id="Ph1">
           </div>
           <div class="col-md-7">
-            <img src="images/Rectangle 78.jpg" alt="" id="ph2">
+            <img src="images/Rectangle 78.jpg" alt="" id="Ph2">
           </div>
           <div class="col-md-5" id="AppRtext">
             <h1 id="AppNowtitle">We will happy to see you in our University!</h1>
@@ -290,7 +297,6 @@
         </div>
     <!-- /END THE FEATURETTES -->
 
-  </div><!-- /.container -->
 
 
   <!-- FOOTER -->
@@ -368,5 +374,5 @@
   </footer>
 </main>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="dist/js/bootstrap.bundle.min.js"></script>
 </html>

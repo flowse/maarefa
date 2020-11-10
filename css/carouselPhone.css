@@ -89,163 +89,6 @@ body {
   }
 }
 
-@media screen and (max-width: 959px) {
-  #myCarousel{
-    width: 220%;
-    margin-left: 25%;
-    margin-right: 25%;
-  }
-  #Upd {
-    width: 240%;
-    margin-left: 22%;
-    margin-right: 20%;
-  }
-  #EventList{
-    width: 240%;
-    margin-left: 22%;
-    margin-right: 20%;
-  }
-  #EvL{
-    width: 20%;
-    margin-left: 5.5%;
-    margin-right: 5.5%;
-  }
-  #eventName{
-    width: 55%;
-  }
-
-  #MDR{
-    width: 240%;
-    margin-left: 22%;
-    margin-right: 20%;
-    margin-top: 10%;
-  }
-  #MDtext{
-    width: 60%;
-  }
-  #MDR div{
-    width: 50%;
-    height: 50%;
-  }
-  #MDR img{
-    width: 100%;
-    height: 100%;
-  }
-
-  #VisionR{
-    width: 240%;
-    margin-left: 22%;
-    margin-right: 20%;
-    margin-top: 10%;
-  }
-  #VisionR div{
-    width: 50%;
-    height: 50%;
-  }
-  #MCVision{
-    width: 100%;
-    height: 100%;
-  }
-
-  #SMR{
-    width: 240%;
-    margin-left: 22%;
-    margin-right: 20%;
-    margin-top: 10%;
-  }
-  #SMtext{
-    width: 60%;
-  }
-  #SMR div{
-    width: 50%;
-    height: 50%;
-  }
-  #SMR img{
-    width: 100%;
-    height: 100%;
-  }
-
-  #StaInfoR{
-    width: 240%;
-    margin-left: 22%;
-    margin-right: 20%;
-    margin-top: 10%;
-  }
-  #Sta{
-    width: 50%;
-  }
-  #STR{
-    width: 150%;
-  }
-  #STList{
-    width: 40%;
-  }
-  #STimg{
-    width: 50%;
-    height: 50%;
-  }
-  #StaInfoR img{
-    width: 100%;
-    height: 100%;
-  }
-
-  #ELR{
-    width: 240%;
-    margin-left: 22%;
-    margin-right: 20%;
-    margin-top: 10%;
-  }
-  #ELtext{
-    width: 60%;
-  }
-  #ELR div{
-    width: 50%;
-    height: 50%;
-  }
-  #ELR img{
-    width: 100%;
-    height: 100%;
-  }
-
-  #LOR{
-    width: 240%;
-    margin-left: 22%;
-    margin-right: 20%;
-    margin-top: 10%;
-  }
-  #LibCard{
-    width: 50%;
-  }
-  #OppCard{
-    width: 50%;
-  }
-
-  #AppR{
-    width: 240%;
-    margin-left: 22%;
-    margin-right: 20%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-  }
-  #AppRtext{
-    width: 60%;
-  }
-  #AppR div{
-    width: 50%;
-    height: 50%;
-  }
-  #AppR img{
-    width: 100%;
-    height: 100%;
-  }
-
-  .container.footer{
-    width: 240%;
-    margin-left: 22%;
-    margin-right: 20%;
-  }
-}
-
 /* Tool Bar */
 #toolBar{
   margin-bottom: 1%;
@@ -279,7 +122,13 @@ body {
   line-height: 30px;
   text-transform: uppercase;
   color: #FFFFFF;
-  padding-left: 60%;
+  padding-left: 15%;
+  padding-top: 3%;
+}
+#EvL{
+  width: auto;
+  height: auto;
+  margin-bottom: 0%;
 }
 .eventText{
   font-family: TheSans;
@@ -309,19 +158,21 @@ body {
 }
 
 /* Mojor Degree */
+#MDR{
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
 #MDtext{
   background: #F5F6FA;
-  z-index: 3;
-}
-.MDdegree {
   font-style: normal;
   font-family: 'Open Sans', sans-serif;
+  padding: 10%;
 }
 #MDtitle{
   /* H1 */
   font-family: TheSans;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 24px;
   line-height: 40px;
   /* the main color */
   color: #00A6B7;
@@ -335,44 +186,101 @@ body {
   color: #605F5F;
 }
 #MDbutton{
+  width: 60%;
   /*text inside button*/
   font-weight: 600;
   font-size: 16px;
   line-height: 31px;
   text-transform: capitalize;
   color: #00A6B7;
-  padding-left: 37px;
-  padding-right: 33px;
-  padding-top: 6px;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
   /* button rec*/
   background: #FFFFFF;
   border: 2px solid #00A6B7;
 }
+#MDRimg{
+  padding: 0%;
+}
 #MDimg{
-  width: 684px;
-  height: 463px;
+  width: 375px;
+  height: 193px;
+  z-index: 1;
+}
+#MDabove10 {
+    width: 200px;
+    font-family: TheSans;
+    font-style: normal;
+    position: absolute;
+    color: #FFFFFF;
+    background: #00A6B7;
+    opacity: 0.9;
+    z-index: 2;
+    margin-top: -15%;
+}
+#above10{
+  font-weight: normal;
+  font-size: 24px;
+  width: 20%;
+  margin: 0%;
+}
+#MtoChoose{
+  /* h2 */
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0%;
 }
 
 /* Vision */
+#VisionR{
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+#VisionR div{
+  width: auto;
+}
+#VisionR p{
+    width: 60%;
+    margin-block-end:: 0px;
+}
+#Vision{
+  width: 100px;
+  height: 50px;
+}
+#Group , #Vector {
+  margin-bottom: 45px;
+}
+#Group {
+  margin-left: -60px;
+}
+#Vector{
+  margin-left: -18px;
+}
 #visionDes{
   /* body text */
   font-family: Open Sans;
   font-style: normal;
-  font-weight: 300;
   font-size: 18px;
-  line-height: 28px;
   /* body text color */
   color: #605F5F;
 }
 #MCVision{
-  width: 305px;
-height: 124.72px;
+  width: 200px;
+  height: 100px;
 }
 
 /* Scholership */
+#SMR{
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+#SMimg{
+  width: 360px;
+  height: 193px;
+}
 #SMtext{
   background: #F5F6FA;
-  z-index: 3;
+  padding: 5%;
 }
 .SMtext{
   font-style: normal;
@@ -381,7 +289,7 @@ height: 124.72px;
   /* H1 */
   font-family: TheSans;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 24px;
   line-height: 40px;
   /* the main color */
   color: #00A6B7;
@@ -396,6 +304,7 @@ height: 124.72px;
   color: #605F5F;
 }
 #SMbutton{
+  width: auto;
   /*text inside button*/
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
@@ -412,82 +321,82 @@ height: 124.72px;
 }
 
 /* Statistical Info */
+#STR div{
+  width: auto;
+  margin-left: 1px;
+}
+#STimg{
+  width: 173px;
+  height: 173px;
+  margin-left: 50%;
+}
 #Sta{
   font-family: TheSans;
   font-style: normal;
+  padding-left: 10%;
 }
-#ST3000{
+#Sta p, #Sta h2, #Sta3 p, #Sta3 h2, #Sta4 p, #Sta4 h2{
+  margin: 0px;
+}
+#Sta p{
+  margin-right: -50px;
+}
+#Sta h2{
+  margin-right: -30px;
+}
+#Sta3{
+  font-family: TheSans;
+  font-style: normal;
+  padding-left: 10%;
+}
+#Sta3 h2{
+  margin-right: -150px;
+}
+#Sta4{
+  font-family: TheSans;
+  font-style: normal;
+  padding-left: 10%;
+}
+#Sta4 h2{
+  margin-right: -280px;
+}
+#STNum{
   font-weight: normal;
   font-size: 32px;
-  line-height: 64px;
   /* the main color */
   color: #00A6B7;
+  width: 50%;
 }
-#CurrentS{
-  font-weight: bold;
+#StaName{
+  font-weight: normal;
   font-size: 24px;
-  line-height: 30px;
   /* body text color */
   color: #605F5F;
-}
-#ST20{
-  font-weight: normal;
-  font-size: 32px;
-  line-height: 64px;
-  /* the main color */
-  color: #00A6B7;
-}
-#AwardW{
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 30px;
-  /* the main color */
-  color: #605F5F;
-}
-#ST5{
-  font-weight: normal;
-  font-size: 32px;
-  line-height: 64px;
-  /* the main color */
-  color: #00A6B7;
-}
-#FMRatio{
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 30px;
-  /* the main color */
-  color: #605F5F;
-}
-#ST10{
-  font-weight: normal;
-  font-size: 32px;
-  line-height: 64px;
-  /* the main color */
-  color: #00A6B7;
-}
-#DegC{
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 30px;
-  /* the main color */
-  color: #605F5F;
+  width: 50%;
 }
 
 /* E-Learning */
-#ElCard{
-  background: #F9F9F9;
+#ELR{
+  margin-top: 2%;
+  margin-bottom: 5%;
 }
-.ElCard{
+#Elimg{
+  width: 360px;
+  height: 193px;
+}
+#ELtext{
+  background: #F5F6FA;
   font-family: TheSans;
   font-style: normal;
   font-weight: bold;
+  padding: 4%;
 }
 #EL{
   text-transform: capitalize;
   color: #000000;
 }
 #SupportEL{
-  font-size: 36px;
+  font-size: 24px;
   line-height: 40px;
   /* the main color */
   color: #00A6B7;
@@ -516,10 +425,12 @@ height: 124.72px;
 }
 
 /* Library and Opp */
+#LOR{
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
 #LibCard{
   background: #00A6B7;
-}
-.LibCard{
   color: #FFFFFF;
   font-family: TheSans;
   font-style: normal;
@@ -536,13 +447,13 @@ height: 124.72px;
   font-size: 18px;
   line-height: 28px;
 }
-
 #OppCard{
   background: #000000;
-}
-.OppCard{
   font-style: normal;
   color: #FFFFFF;
+  width: 100%;
+  padding-left: 5%;
+  margin-right: 5%;
 }
 #OppStudents{
   font-family: TheSans;
@@ -559,18 +470,28 @@ height: 124.72px;
 }
 
 /* Applay Now */
-.col-md-5.AppNow1{
-  z-index: 1;
+#AppR{
+  margin-top: 2%;
+  margin-bottom: 5%;
+  padding-left: 2%;
 }
-.col-md-5.AppNow2{
-  z-index: 2;
+#Ph1{
+  width: 360px;
+  height: 193px;
+}
+#Ph2{
+  width: 284px;
+  height: 184px;
+}
+#AppRtext{
+  font-style: normal;
+  padding: 5%;
 }
 #AppNowtitle{
   /* H1 */
   font-family: TheSans;
-  font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 24px;
   line-height: 40px;
   /* the main color */
   color: #00A6B7;
@@ -578,7 +499,6 @@ height: 124.72px;
 #AppNowdesc{
   /* body text */
   font-family: 'Open Sans', sans-serif;
-  font-style: normal;
   font-weight: 300;
   font-size: 18px;
   line-height: 28px;
