@@ -1,0 +1,22 @@
+uuid: 54e8f3aa-830d-458b-bfb0-64da7feff6f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.gallary
+id: node.gallary.sticky
+field_name: sticky
+entity_type: node
+bundle: gallary
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

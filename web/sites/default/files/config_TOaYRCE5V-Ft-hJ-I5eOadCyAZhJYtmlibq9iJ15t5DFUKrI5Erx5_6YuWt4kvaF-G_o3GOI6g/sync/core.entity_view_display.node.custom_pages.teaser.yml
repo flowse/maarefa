@@ -1,0 +1,23 @@
+uuid: 98be2150-2856-4f9b-b9b1-152e29e95068
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.custom_pages.field_views_and_blocks
+    - node.type.custom_pages
+  module:
+    - user
+id: node.custom_pages.teaser
+targetEntityType: node
+bundle: custom_pages
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_views_and_blocks: true
+  langcode: true

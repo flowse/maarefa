@@ -1,0 +1,20 @@
+uuid: 666edc5b-563f-4666-ae77-f3ca7fb816f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.scientific_research
+  module:
+    - path
+id: node.scientific_research.path
+field_name: path
+entity_type: node
+bundle: scientific_research
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

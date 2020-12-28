@@ -1,0 +1,19 @@
+uuid: 3287bae6-b236-4edf-8fd9-30d14741086a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title_of_paragraph
+    - paragraphs.paragraphs_type.text_bg_option_1
+id: paragraph.text_bg_option_1.field_title_of_paragraph
+field_name: field_title_of_paragraph
+entity_type: paragraph
+bundle: text_bg_option_1
+label: 'Title of Paragraph'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

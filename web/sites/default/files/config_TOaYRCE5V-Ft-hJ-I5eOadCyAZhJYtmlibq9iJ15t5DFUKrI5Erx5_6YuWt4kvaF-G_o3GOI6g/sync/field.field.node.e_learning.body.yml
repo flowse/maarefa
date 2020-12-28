@@ -1,0 +1,23 @@
+uuid: 135adb12-f3c9-40af-9b64-9b1e781dc278
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.e_learning
+  module:
+    - text
+id: node.e_learning.body
+field_name: body
+entity_type: node
+bundle: e_learning
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,23 @@
+uuid: 606af36a-7e78-4761-b3d3-6aebcf58b965
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.study_plan
+  module:
+    - text
+id: node.study_plan.body
+field_name: body
+entity_type: node
+bundle: study_plan
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

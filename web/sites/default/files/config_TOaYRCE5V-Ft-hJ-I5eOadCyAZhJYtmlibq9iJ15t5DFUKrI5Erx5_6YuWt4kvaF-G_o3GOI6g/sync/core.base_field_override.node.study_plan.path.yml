@@ -1,0 +1,20 @@
+uuid: 275cf2dd-5b5c-43d9-9016-dcff8f996cc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.study_plan
+  module:
+    - path
+id: node.study_plan.path
+field_name: path
+entity_type: node
+bundle: study_plan
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

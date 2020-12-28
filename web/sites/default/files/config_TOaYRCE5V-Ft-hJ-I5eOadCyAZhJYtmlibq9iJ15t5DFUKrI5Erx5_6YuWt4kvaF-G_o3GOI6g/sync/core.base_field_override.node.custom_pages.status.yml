@@ -1,0 +1,22 @@
+uuid: bfab287f-6221-4968-8fe8-88ef19524681
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.custom_pages
+id: node.custom_pages.status
+field_name: status
+entity_type: node
+bundle: custom_pages
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

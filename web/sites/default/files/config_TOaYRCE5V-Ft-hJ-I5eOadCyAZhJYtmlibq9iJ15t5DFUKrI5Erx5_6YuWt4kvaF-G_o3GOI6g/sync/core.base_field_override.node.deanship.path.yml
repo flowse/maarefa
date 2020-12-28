@@ -1,0 +1,20 @@
+uuid: 8042d50d-0c5d-415c-9f8d-6718661aab4c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.deanship
+  module:
+    - path
+id: node.deanship.path
+field_name: path
+entity_type: node
+bundle: deanship
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

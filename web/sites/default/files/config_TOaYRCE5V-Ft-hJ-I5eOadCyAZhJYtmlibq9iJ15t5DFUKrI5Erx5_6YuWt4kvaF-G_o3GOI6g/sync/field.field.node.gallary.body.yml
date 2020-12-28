@@ -1,0 +1,23 @@
+uuid: 99c92474-cad6-4fb0-ab32-d1a5ec6058a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.gallary
+  module:
+    - text
+id: node.gallary.body
+field_name: body
+entity_type: node
+bundle: gallary
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

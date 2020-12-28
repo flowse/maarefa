@@ -1,0 +1,18 @@
+uuid: 298e1c34-e54e-4203-8984-9e3334b3c6a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.home_slider
+id: node.home_slider.title
+field_name: title
+entity_type: node
+bundle: home_slider
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

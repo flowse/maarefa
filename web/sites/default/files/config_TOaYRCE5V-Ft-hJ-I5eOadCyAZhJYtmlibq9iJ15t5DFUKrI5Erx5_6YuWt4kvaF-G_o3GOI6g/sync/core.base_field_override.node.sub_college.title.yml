@@ -1,0 +1,18 @@
+uuid: cb2c3517-6632-46c4-be62-9f4c76192bff
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sub_college
+id: node.sub_college.title
+field_name: title
+entity_type: node
+bundle: sub_college
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

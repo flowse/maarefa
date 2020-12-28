@@ -1,0 +1,22 @@
+uuid: c6349204-ff78-42f1-bb1d-e7774c0b045d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrap_for_drupal_subtheme
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: bootstrap_for_drupal_subtheme_content
+theme: bootstrap_for_drupal_subtheme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

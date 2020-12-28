@@ -1,0 +1,23 @@
+uuid: dbd523ef-cd97-4808-9adc-e322096c2814
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.scientific_research
+  module:
+    - text
+id: node.scientific_research.body
+field_name: body
+entity_type: node
+bundle: scientific_research
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

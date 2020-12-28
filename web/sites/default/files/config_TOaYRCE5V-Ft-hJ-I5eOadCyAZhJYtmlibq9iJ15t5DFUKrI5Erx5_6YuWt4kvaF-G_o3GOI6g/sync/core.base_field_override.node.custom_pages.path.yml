@@ -1,0 +1,20 @@
+uuid: ec60c93e-6712-4e27-89c0-7747a4ab5fe7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.custom_pages
+  module:
+    - path
+id: node.custom_pages.path
+field_name: path
+entity_type: node
+bundle: custom_pages
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

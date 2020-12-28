@@ -1,0 +1,18 @@
+uuid: dbc2ff3a-f0a1-41b7-be01-9c7e5740d233
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.text_text_option_1
+id: paragraph.text_text_option_1.created
+field_name: created
+entity_type: paragraph
+bundle: text_text_option_1
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

@@ -1,0 +1,18 @@
+uuid: c65b87b1-ad50-4c8f-b974-dcdd9cc87892
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.study_plan
+id: node.study_plan.title
+field_name: title
+entity_type: node
+bundle: study_plan
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,22 @@
+uuid: 1ddef057-4b57-4892-a287-1b51f2c6564f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.e_learning
+id: node.e_learning.status
+field_name: status
+entity_type: node
+bundle: e_learning
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

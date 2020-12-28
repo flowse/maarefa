@@ -1,0 +1,18 @@
+uuid: 649dd2ca-fae3-4974-9dc3-339d6727109b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.deanship
+id: node.deanship.title
+field_name: title
+entity_type: node
+bundle: deanship
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

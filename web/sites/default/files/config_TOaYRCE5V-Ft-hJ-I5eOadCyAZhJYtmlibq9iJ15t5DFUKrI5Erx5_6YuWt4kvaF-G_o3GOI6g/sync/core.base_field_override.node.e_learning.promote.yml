@@ -1,0 +1,22 @@
+uuid: bd85632b-addc-4a6e-a926-4f30574376c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.e_learning
+id: node.e_learning.promote
+field_name: promote
+entity_type: node
+bundle: e_learning
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

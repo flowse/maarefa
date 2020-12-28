@@ -1,0 +1,31 @@
+uuid: 39e6eb8e-d499-4d0a-a08d-ccd93d3cd872
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_bg_option_5.field_description_of_paragraph
+    - field.field.paragraph.text_bg_option_5.field_title_of_paragraph
+    - paragraphs.paragraphs_type.text_bg_option_5
+  module:
+    - text
+id: paragraph.text_bg_option_5.default
+targetEntityType: paragraph
+bundle: text_bg_option_5
+mode: default
+content:
+  field_description_of_paragraph:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_title_of_paragraph:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

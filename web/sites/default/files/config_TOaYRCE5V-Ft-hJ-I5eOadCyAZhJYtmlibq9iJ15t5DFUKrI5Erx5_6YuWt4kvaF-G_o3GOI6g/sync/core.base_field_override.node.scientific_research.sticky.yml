@@ -1,0 +1,22 @@
+uuid: c5c2c4bf-1470-4bf4-8ee5-4d18434ec96f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.scientific_research
+id: node.scientific_research.sticky
+field_name: sticky
+entity_type: node
+bundle: scientific_research
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

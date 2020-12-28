@@ -1,0 +1,18 @@
+uuid: 52f55712-b379-4f10-bd47-963df75932a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.scientific_research
+id: node.scientific_research.title
+field_name: title
+entity_type: node
+bundle: scientific_research
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

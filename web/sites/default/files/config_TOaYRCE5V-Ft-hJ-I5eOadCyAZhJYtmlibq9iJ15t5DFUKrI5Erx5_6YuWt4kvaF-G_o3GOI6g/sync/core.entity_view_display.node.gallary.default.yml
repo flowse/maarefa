@@ -1,0 +1,29 @@
+uuid: 47a2852a-204c-4ac6-af2d-f0526ca91a7e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.gallary.body
+    - node.type.gallary
+  module:
+    - text
+    - user
+id: node.gallary.default
+targetEntityType: node
+bundle: gallary
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

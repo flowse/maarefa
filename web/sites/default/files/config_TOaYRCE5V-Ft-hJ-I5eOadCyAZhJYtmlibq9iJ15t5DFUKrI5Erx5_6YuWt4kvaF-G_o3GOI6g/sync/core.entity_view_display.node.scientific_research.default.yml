@@ -1,0 +1,40 @@
+uuid: 086159c5-b3cc-499f-88ef-15f558ff9569
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.scientific_research.body
+    - field.field.node.scientific_research.field_item_paragraph
+    - node.type.scientific_research
+  module:
+    - entity_reference_revisions
+    - text
+    - user
+id: node.scientific_research.default
+targetEntityType: node
+bundle: scientific_research
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_item_paragraph:
+    weight: 102
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

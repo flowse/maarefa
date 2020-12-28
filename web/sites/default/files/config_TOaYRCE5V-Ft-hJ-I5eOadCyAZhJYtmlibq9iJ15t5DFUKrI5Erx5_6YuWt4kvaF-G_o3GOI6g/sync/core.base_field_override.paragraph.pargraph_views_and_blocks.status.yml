@@ -1,0 +1,22 @@
+uuid: 4026bcfe-77a8-44bc-a966-16312e7316d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.pargraph_views_and_blocks
+id: paragraph.pargraph_views_and_blocks.status
+field_name: status
+entity_type: paragraph
+bundle: pargraph_views_and_blocks
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

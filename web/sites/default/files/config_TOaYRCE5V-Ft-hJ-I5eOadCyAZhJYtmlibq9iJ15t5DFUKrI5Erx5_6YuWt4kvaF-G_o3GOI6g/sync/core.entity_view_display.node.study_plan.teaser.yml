@@ -1,0 +1,35 @@
+uuid: 94d08a06-f302-4131-a2ff-ccb880b451da
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.study_plan.body
+    - field.field.node.study_plan.field_item_paragraph
+    - field.field.node.study_plan.field_main_college
+    - node.type.study_plan
+  module:
+    - text
+    - user
+id: node.study_plan.teaser
+targetEntityType: node
+bundle: study_plan
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_item_paragraph: true
+  field_main_college: true
+  langcode: true

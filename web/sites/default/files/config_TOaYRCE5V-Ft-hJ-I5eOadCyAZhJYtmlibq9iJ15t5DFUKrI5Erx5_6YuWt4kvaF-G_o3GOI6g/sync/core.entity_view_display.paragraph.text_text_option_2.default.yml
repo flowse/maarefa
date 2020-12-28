@@ -1,0 +1,48 @@
+uuid: 8027c30b-5979-40e1-8749-651b8402dd3f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_text_option_2.field_description_of_paragraph
+    - field.field.paragraph.text_text_option_2.field_description_of_paragraph_2
+    - field.field.paragraph.text_text_option_2.field_title_of_paragraph
+    - field.field.paragraph.text_text_option_2.field_title_of_paragraph_2
+    - paragraphs.paragraphs_type.text_text_option_2
+  module:
+    - text
+id: paragraph.text_text_option_2.default
+targetEntityType: paragraph
+bundle: text_text_option_2
+mode: default
+content:
+  field_description_of_paragraph:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_description_of_paragraph_2:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_title_of_paragraph:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_title_of_paragraph_2:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

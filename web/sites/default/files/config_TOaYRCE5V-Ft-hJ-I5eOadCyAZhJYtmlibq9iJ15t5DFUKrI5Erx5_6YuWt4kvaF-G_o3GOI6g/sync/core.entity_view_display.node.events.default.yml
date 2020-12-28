@@ -1,0 +1,40 @@
+uuid: 5cee1621-0274-4f2b-affd-12b1c789ab15
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.events.body
+    - field.field.node.events.field_item_paragraph
+    - node.type.events
+  module:
+    - entity_reference_revisions
+    - text
+    - user
+id: node.events.default
+targetEntityType: node
+bundle: events
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_item_paragraph:
+    weight: 102
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

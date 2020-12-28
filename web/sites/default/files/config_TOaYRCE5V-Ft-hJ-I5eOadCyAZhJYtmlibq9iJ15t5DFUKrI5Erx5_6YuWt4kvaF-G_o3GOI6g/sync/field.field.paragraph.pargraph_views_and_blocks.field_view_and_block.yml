@@ -1,0 +1,23 @@
+uuid: 3935cc35-0b19-4d26-a63d-f2d8dcd4d80e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_view_and_block
+    - paragraphs.paragraphs_type.pargraph_views_and_blocks
+  module:
+    - block_field
+id: paragraph.pargraph_views_and_blocks.field_view_and_block
+field_name: field_view_and_block
+entity_type: paragraph
+bundle: pargraph_views_and_blocks
+label: 'View and block'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  selection: blocks
+  selection_settings: {  }
+field_type: block_field

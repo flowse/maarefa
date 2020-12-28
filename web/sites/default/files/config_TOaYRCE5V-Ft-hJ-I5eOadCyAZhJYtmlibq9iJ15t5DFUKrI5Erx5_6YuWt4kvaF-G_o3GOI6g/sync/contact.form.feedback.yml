@@ -1,0 +1,14 @@
+uuid: 9fc2a7fa-0b50-45bd-a0be-c34eb6799bb5
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - aaabuyahia@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

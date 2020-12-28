@@ -1,0 +1,81 @@
+uuid: 49c542f5-59c1-4877-9f9f-3e69f3049dfd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_views_and_blocks
+    - node.type.custom_pages
+  module:
+    - entity_reference_revisions
+    - paragraph_blocks
+third_party_settings:
+  paragraph_blocks:
+    status: 1
+id: node.custom_pages.field_views_and_blocks
+field_name: field_views_and_blocks
+entity_type: node
+bundle: custom_pages
+label: 'Views and blocks'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      pargraph_views_and_blocks:
+        weight: 18
+        enabled: false
+      table:
+        weight: 19
+        enabled: false
+      text_bg_option_1:
+        weight: 20
+        enabled: false
+      text_bg_option_2:
+        weight: 21
+        enabled: false
+      text_bg_option_3:
+        weight: 22
+        enabled: false
+      text_bg_option_4:
+        weight: 23
+        enabled: false
+      text_bg_option_5:
+        weight: 24
+        enabled: false
+      text_image_option_1:
+        weight: 25
+        enabled: false
+      text_image_option_2:
+        weight: 26
+        enabled: false
+      text_option_1:
+        weight: 27
+        enabled: false
+      text_option_2:
+        weight: 28
+        enabled: false
+      text_text_option_1:
+        weight: 29
+        enabled: false
+      text_text_option_2:
+        weight: 30
+        enabled: false
+      text_text_option_3:
+        weight: 31
+        enabled: false
+      text_text_option_4:
+        weight: 32
+        enabled: false
+      text_text_option_5:
+        weight: 33
+        enabled: false
+      text_text_option_6:
+        weight: 34
+        enabled: false
+field_type: entity_reference_revisions

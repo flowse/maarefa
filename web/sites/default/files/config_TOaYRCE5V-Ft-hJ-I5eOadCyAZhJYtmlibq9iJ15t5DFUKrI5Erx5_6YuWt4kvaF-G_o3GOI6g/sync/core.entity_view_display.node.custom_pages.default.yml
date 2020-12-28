@@ -1,0 +1,31 @@
+uuid: b599955e-3515-4fa3-8972-184a50d3c7e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.custom_pages.field_views_and_blocks
+    - node.type.custom_pages
+  module:
+    - entity_reference_revisions
+    - user
+id: node.custom_pages.default
+targetEntityType: node
+bundle: custom_pages
+mode: default
+content:
+  field_views_and_blocks:
+    type: entity_reference_revisions_entity_view
+    weight: 102
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

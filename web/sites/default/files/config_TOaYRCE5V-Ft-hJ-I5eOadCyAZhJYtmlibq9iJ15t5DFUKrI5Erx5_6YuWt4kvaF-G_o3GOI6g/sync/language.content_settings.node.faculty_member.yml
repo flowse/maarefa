@@ -1,0 +1,18 @@
+uuid: e13c6146-58ef-4ea0-92d0-03ffe7f1f734
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.faculty_member
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.faculty_member
+target_entity_type_id: node
+target_bundle: faculty_member
+default_langcode: site_default
+language_alterable: false

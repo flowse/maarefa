@@ -1,0 +1,18 @@
+uuid: 8adb1fd2-5c21-44a7-9f47-7854885489ae
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: E-learning
+type: e_learning
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

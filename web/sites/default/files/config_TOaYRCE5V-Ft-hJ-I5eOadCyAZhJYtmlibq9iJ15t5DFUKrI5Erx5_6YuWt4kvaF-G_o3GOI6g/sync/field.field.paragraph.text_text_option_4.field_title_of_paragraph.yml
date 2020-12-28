@@ -1,0 +1,19 @@
+uuid: 8dc141ef-e697-4b2e-8d58-5c6e1a177e09
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title_of_paragraph
+    - paragraphs.paragraphs_type.text_text_option_4
+id: paragraph.text_text_option_4.field_title_of_paragraph
+field_name: field_title_of_paragraph
+entity_type: paragraph
+bundle: text_text_option_4
+label: 'Title of Paragraph'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

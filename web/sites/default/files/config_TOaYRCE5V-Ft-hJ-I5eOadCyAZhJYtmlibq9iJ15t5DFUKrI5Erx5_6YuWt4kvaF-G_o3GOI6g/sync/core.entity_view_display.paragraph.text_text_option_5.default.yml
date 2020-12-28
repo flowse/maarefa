@@ -1,0 +1,30 @@
+uuid: 54c0d07f-76f1-43b1-b2ac-f8b0438442af
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_text_option_5.field_description_of_paragraph
+    - field.field.paragraph.text_text_option_5.field_description_of_paragraph_2
+    - paragraphs.paragraphs_type.text_text_option_5
+  module:
+    - text
+id: paragraph.text_text_option_5.default
+targetEntityType: paragraph
+bundle: text_text_option_5
+mode: default
+content:
+  field_description_of_paragraph:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_description_of_paragraph_2:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

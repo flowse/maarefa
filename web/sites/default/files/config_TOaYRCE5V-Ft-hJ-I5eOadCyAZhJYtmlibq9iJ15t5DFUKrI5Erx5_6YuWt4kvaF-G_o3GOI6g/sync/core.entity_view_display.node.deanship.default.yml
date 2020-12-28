@@ -1,0 +1,40 @@
+uuid: 97898b1d-5731-47e3-a6c5-722e64cabd3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.deanship.body
+    - field.field.node.deanship.field_item_paragraph
+    - node.type.deanship
+  module:
+    - entity_reference_revisions
+    - text
+    - user
+id: node.deanship.default
+targetEntityType: node
+bundle: deanship
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_item_paragraph:
+    weight: 102
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

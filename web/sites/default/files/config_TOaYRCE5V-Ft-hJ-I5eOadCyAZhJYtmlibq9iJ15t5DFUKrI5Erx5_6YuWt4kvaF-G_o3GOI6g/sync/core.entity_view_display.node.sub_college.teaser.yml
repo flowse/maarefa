@@ -1,0 +1,35 @@
+uuid: b188dc10-31c4-4c89-80a0-7eea68f1e160
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.sub_college.body
+    - field.field.node.sub_college.field_item_paragraph
+    - field.field.node.sub_college.field_main_college
+    - node.type.sub_college
+  module:
+    - text
+    - user
+id: node.sub_college.teaser
+targetEntityType: node
+bundle: sub_college
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_item_paragraph: true
+  field_main_college: true
+  langcode: true

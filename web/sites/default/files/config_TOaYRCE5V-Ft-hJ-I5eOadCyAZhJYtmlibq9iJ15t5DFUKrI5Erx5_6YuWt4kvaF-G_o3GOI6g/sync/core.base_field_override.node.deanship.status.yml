@@ -1,0 +1,22 @@
+uuid: c7e6c531-0461-4558-95e8-037d2c141394
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.deanship
+id: node.deanship.status
+field_name: status
+entity_type: node
+bundle: deanship
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

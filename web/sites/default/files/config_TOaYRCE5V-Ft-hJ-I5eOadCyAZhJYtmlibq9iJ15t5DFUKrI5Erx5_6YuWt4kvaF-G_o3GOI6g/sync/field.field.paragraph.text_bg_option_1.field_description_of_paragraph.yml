@@ -1,0 +1,21 @@
+uuid: d46ee344-47ce-484f-b1b3-6f0fd1f6353a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description_of_paragraph
+    - paragraphs.paragraphs_type.text_bg_option_1
+  module:
+    - text
+id: paragraph.text_bg_option_1.field_description_of_paragraph
+field_name: field_description_of_paragraph
+entity_type: paragraph
+bundle: text_bg_option_1
+label: 'Description of Paragraph'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

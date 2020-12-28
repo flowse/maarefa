@@ -1,0 +1,18 @@
+uuid: 10ff95b6-10bf-4476-9978-ec4a78707ed9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.faculty_member
+id: node.faculty_member.title
+field_name: title
+entity_type: node
+bundle: faculty_member
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

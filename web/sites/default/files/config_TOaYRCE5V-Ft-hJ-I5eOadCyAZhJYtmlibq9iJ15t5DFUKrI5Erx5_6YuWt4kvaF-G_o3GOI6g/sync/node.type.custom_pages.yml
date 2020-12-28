@@ -1,0 +1,17 @@
+uuid: 63968be3-caad-4b81-beab-2cb863ff9175
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Custom Pages'
+type: custom_pages
+description: "Use Custom Pages for your Main Pages, such as an 'Front Page' page.\t"
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

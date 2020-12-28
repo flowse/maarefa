@@ -1,0 +1,18 @@
+uuid: e75c38ff-8f68-4e26-bbb3-682a602b10cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.faculty_member
+id: node.faculty_member.changed
+field_name: changed
+entity_type: node
+bundle: faculty_member
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

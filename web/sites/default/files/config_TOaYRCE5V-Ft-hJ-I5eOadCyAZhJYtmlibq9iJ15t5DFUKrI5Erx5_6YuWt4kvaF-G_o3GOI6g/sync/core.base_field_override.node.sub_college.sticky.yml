@@ -1,0 +1,22 @@
+uuid: 6365eb2b-8858-48d2-8710-986d40057c02
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sub_college
+id: node.sub_college.sticky
+field_name: sticky
+entity_type: node
+bundle: sub_college
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,18 @@
+uuid: 0c4105b8-70d4-4e60-964b-ed0e9801d6b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sub_college
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.sub_college
+target_entity_type_id: node
+target_bundle: sub_college
+default_langcode: site_default
+language_alterable: false

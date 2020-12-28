@@ -1,0 +1,18 @@
+uuid: f3180fd2-ffba-4ba3-951a-5894613fc4e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.pargraph_views_and_blocks
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.pargraph_views_and_blocks
+target_entity_type_id: paragraph
+target_bundle: pargraph_views_and_blocks
+default_langcode: site_default
+language_alterable: false

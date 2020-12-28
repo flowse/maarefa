@@ -1,0 +1,20 @@
+uuid: 0576e72c-ae71-4960-b5fd-a463e991a3ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.e_learning
+  module:
+    - path
+id: node.e_learning.path
+field_name: path
+entity_type: node
+bundle: e_learning
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

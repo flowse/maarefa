@@ -1,0 +1,18 @@
+uuid: c48046f9-a9f6-4902-a697-7989a2afba15
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.gallary
+id: node.gallary.title
+field_name: title
+entity_type: node
+bundle: gallary
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

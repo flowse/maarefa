@@ -1,0 +1,33 @@
+uuid: af62e0cc-11f2-427a-b537-483eab5140bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.deanship.body
+    - field.field.node.deanship.field_item_paragraph
+    - node.type.deanship
+  module:
+    - text
+    - user
+id: node.deanship.teaser
+targetEntityType: node
+bundle: deanship
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_item_paragraph: true
+  langcode: true

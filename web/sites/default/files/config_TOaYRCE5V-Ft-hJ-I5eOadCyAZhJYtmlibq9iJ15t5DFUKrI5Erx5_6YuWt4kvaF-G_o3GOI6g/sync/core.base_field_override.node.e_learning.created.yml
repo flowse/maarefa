@@ -1,0 +1,18 @@
+uuid: fb15b44b-0bc7-47b8-8d7f-9b43f36be0a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.e_learning
+id: node.e_learning.created
+field_name: created
+entity_type: node
+bundle: e_learning
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

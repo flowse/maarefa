@@ -1,0 +1,18 @@
+uuid: 17a360d9-932a-4918-a386-599e8e9e96af
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.faculty_member
+id: node.faculty_member.created
+field_name: created
+entity_type: node
+bundle: faculty_member
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

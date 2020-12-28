@@ -1,0 +1,33 @@
+uuid: 2cf8c35a-ec92-4db2-acd9-027e1fd82d9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.college.body
+    - field.field.node.college.field_item_paragraph
+    - node.type.college
+  module:
+    - text
+    - user
+id: node.college.teaser
+targetEntityType: node
+bundle: college
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_item_paragraph: true
+  langcode: true

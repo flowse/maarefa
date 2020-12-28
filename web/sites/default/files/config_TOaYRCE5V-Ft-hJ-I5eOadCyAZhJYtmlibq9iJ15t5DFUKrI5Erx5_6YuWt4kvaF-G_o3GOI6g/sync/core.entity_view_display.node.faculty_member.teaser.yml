@@ -1,0 +1,33 @@
+uuid: 759a0809-75c1-44cc-9571-20956e995dd1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.faculty_member.body
+    - field.field.node.faculty_member.field_item_paragraph
+    - node.type.faculty_member
+  module:
+    - text
+    - user
+id: node.faculty_member.teaser
+targetEntityType: node
+bundle: faculty_member
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_item_paragraph: true
+  langcode: true

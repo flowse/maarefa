@@ -1,0 +1,18 @@
+uuid: d2173c11-aba0-4e69-990d-28ed63c103f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.pargraph_views_and_blocks
+id: paragraph.pargraph_views_and_blocks.admin_title
+field_name: admin_title
+entity_type: paragraph
+bundle: pargraph_views_and_blocks
+label: 'Admin title'
+description: 'The admin title is used to help place paragraphs into panes.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

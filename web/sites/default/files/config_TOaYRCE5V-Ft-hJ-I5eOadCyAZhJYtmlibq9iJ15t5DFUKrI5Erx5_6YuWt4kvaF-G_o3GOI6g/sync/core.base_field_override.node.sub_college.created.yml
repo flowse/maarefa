@@ -1,0 +1,18 @@
+uuid: e4ce41af-2cf6-4dd7-8657-42063473dcae
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sub_college
+id: node.sub_college.created
+field_name: created
+entity_type: node
+bundle: sub_college
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

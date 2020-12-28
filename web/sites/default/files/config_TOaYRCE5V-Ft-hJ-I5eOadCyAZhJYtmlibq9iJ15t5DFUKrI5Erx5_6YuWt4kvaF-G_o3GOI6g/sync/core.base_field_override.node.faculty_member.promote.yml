@@ -1,0 +1,22 @@
+uuid: deedecd8-bc3c-4172-b591-bffce1f49ce9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.faculty_member
+id: node.faculty_member.promote
+field_name: promote
+entity_type: node
+bundle: faculty_member
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

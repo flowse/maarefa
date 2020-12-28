@@ -1,0 +1,22 @@
+uuid: 9c598e82-47e1-479b-906f-5ff3bfd764eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.home_slider
+id: node.home_slider.sticky
+field_name: sticky
+entity_type: node
+bundle: home_slider
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

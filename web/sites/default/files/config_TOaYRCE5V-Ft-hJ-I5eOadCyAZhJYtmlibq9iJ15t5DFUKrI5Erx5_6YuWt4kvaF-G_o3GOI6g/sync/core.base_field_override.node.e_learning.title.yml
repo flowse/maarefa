@@ -1,0 +1,18 @@
+uuid: d1bfe404-85e8-478d-a9ce-cd5f799b4693
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.e_learning
+id: node.e_learning.title
+field_name: title
+entity_type: node
+bundle: e_learning
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

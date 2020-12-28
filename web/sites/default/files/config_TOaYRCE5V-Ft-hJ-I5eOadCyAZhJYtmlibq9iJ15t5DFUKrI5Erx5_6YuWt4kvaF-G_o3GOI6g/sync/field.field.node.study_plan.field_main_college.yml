@@ -1,0 +1,30 @@
+uuid: 2fd07666-54b7-4802-9d25-20d453979d02
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_main_college
+    - node.type.college
+    - node.type.study_plan
+    - node.type.sub_college
+id: node.study_plan.field_main_college
+field_name: field_main_college
+entity_type: node
+bundle: study_plan
+label: 'Main College or Sub College'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      college: college
+      sub_college: sub_college
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: college
+field_type: entity_reference

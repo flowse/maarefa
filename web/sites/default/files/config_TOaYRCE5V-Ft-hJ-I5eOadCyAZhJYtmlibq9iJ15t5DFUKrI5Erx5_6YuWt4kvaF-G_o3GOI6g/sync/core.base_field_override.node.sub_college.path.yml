@@ -1,0 +1,20 @@
+uuid: d25141f8-40d2-4dbc-b35b-732d224956ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sub_college
+  module:
+    - path
+id: node.sub_college.path
+field_name: path
+entity_type: node
+bundle: sub_college
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

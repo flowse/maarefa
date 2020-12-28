@@ -1,0 +1,33 @@
+uuid: 9da99e49-7c5c-4145-8091-c509b71ff70e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.scientific_research.body
+    - field.field.node.scientific_research.field_item_paragraph
+    - node.type.scientific_research
+  module:
+    - text
+    - user
+id: node.scientific_research.teaser
+targetEntityType: node
+bundle: scientific_research
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_item_paragraph: true
+  langcode: true

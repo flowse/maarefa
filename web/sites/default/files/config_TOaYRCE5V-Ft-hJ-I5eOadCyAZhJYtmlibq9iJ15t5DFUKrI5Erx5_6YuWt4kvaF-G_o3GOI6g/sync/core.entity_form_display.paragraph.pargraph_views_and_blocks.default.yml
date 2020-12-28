@@ -1,0 +1,45 @@
+uuid: 95e09385-3eb3-4376-b452-9ec5c295c462
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pargraph_views_and_blocks.field_class
+    - field.field.paragraph.pargraph_views_and_blocks.field_view_and_block
+    - paragraphs.paragraphs_type.pargraph_views_and_blocks
+  module:
+    - block_field
+id: paragraph.pargraph_views_and_blocks.default
+targetEntityType: paragraph
+bundle: pargraph_views_and_blocks
+mode: default
+content:
+  admin_title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_class:
+    weight: -8
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_view_and_block:
+    weight: -9
+    settings:
+      plugin_id: ''
+      settings: {  }
+      configuration_form: full
+    third_party_settings: {  }
+    type: block_field_default
+    region: content
+hidden:
+  created: true
+  status: true

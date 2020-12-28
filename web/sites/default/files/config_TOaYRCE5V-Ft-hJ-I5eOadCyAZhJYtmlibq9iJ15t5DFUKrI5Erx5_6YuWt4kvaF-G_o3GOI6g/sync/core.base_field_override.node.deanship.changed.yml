@@ -1,0 +1,18 @@
+uuid: 332e358c-fa08-43d8-b502-1a96abdb4623
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.deanship
+id: node.deanship.changed
+field_name: changed
+entity_type: node
+bundle: deanship
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

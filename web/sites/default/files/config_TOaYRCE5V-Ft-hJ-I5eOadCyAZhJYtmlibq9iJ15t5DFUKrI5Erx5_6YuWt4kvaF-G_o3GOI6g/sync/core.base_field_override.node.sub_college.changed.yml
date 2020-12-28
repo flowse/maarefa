@@ -1,0 +1,18 @@
+uuid: 56652fe3-3795-4292-a4a2-3bdf36e800ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sub_college
+id: node.sub_college.changed
+field_name: changed
+entity_type: node
+bundle: sub_college
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

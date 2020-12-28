@@ -1,0 +1,49 @@
+uuid: c08ff3ab-1414-47fd-ba80-082356029a67
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.study_plan.body
+    - field.field.node.study_plan.field_item_paragraph
+    - field.field.node.study_plan.field_main_college
+    - node.type.study_plan
+  module:
+    - entity_reference_revisions
+    - text
+    - user
+id: node.study_plan.default
+targetEntityType: node
+bundle: study_plan
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_item_paragraph:
+    weight: 102
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+  field_main_college:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

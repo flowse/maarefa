@@ -1,0 +1,18 @@
+uuid: 405035aa-2d70-4169-b958-b8373fd4c00b
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Faculty Member'
+type: faculty_member
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,22 @@
+uuid: 001202d4-d7f0-421b-bc3d-cf5fa3a78eaa
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.deanship
+id: node.deanship.sticky
+field_name: sticky
+entity_type: node
+bundle: deanship
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

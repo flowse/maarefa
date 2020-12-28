@@ -1,0 +1,18 @@
+uuid: 8977073c-e3a4-483d-832e-97292be6bd26
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.scientific_research
+id: node.scientific_research.created
+field_name: created
+entity_type: node
+bundle: scientific_research
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

@@ -1,0 +1,18 @@
+uuid: 6053c6cd-2639-43ac-af99-831006091681
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.study_plan
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.study_plan
+target_entity_type_id: node
+target_bundle: study_plan
+default_langcode: site_default
+language_alterable: false

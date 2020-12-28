@@ -1,0 +1,22 @@
+uuid: b7feabda-ffef-42cb-a967-d1eb81f417cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.e_learning
+id: node.e_learning.sticky
+field_name: sticky
+entity_type: node
+bundle: e_learning
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

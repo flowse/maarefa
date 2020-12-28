@@ -1,0 +1,14 @@
+global-styling:
+  version: 1.19
+  css:
+    theme:
+      assets/css/slick/slick.css: {}
+      assets/css/slick/slick-theme.css: {}
+      assets/css/style.css: {}
+      assets/css/custom.css: {}
+      assets/css/custom-mobile.css: {}      
+  js:
+    assets/js/slick/jquery-migrate-1.2.1.min.js: {}
+    assets/js/slick/slick.min.js: {}   
+    assets/js/global.js: {}
+    

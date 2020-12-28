@@ -1,0 +1,22 @@
+uuid: c7ec33a8-2f0f-4013-8057-d30ae5eff85b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sub_college
+id: node.sub_college.status
+field_name: status
+entity_type: node
+bundle: sub_college
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

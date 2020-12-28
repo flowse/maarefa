@@ -1,0 +1,23 @@
+uuid: 04bbf07a-53e7-4507-b186-56f40f7180ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.sub_college
+  module:
+    - text
+id: node.sub_college.body
+field_name: body
+entity_type: node
+bundle: sub_college
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

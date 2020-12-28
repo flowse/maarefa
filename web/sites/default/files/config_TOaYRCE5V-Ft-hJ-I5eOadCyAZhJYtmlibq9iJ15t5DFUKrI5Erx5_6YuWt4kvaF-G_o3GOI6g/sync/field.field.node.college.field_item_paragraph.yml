@@ -1,0 +1,36 @@
+uuid: 98901291-5852-43e9-9444-bef65781bc5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_item_paragraph
+    - node.type.college
+  module:
+    - entity_reference_revisions
+    - paragraph_blocks
+third_party_settings:
+  paragraph_blocks:
+    status: 1
+id: node.college.field_item_paragraph
+field_name: field_item_paragraph
+entity_type: node
+bundle: college
+label: 'item paragraph'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      image_with_text_1:
+        weight: 3
+        enabled: false
+      text_2_column_option_1:
+        weight: 4
+        enabled: false
+field_type: entity_reference_revisions

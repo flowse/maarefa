@@ -1,0 +1,31 @@
+uuid: 8b716165-bb1c-4573-b18f-d03f06ca5a28
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pargraph_views_and_blocks.field_class
+    - field.field.paragraph.pargraph_views_and_blocks.field_view_and_block
+    - paragraphs.paragraphs_type.pargraph_views_and_blocks
+  module:
+    - block_field
+id: paragraph.pargraph_views_and_blocks.default
+targetEntityType: paragraph
+bundle: pargraph_views_and_blocks
+mode: default
+content:
+  field_class:
+    weight: 1
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_view_and_block:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: block_field
+    region: content
+hidden: {  }

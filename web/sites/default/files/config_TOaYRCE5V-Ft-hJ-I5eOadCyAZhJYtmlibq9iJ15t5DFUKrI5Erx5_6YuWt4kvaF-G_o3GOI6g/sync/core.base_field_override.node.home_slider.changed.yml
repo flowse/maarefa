@@ -1,0 +1,18 @@
+uuid: 1230f270-6f6a-40eb-9921-d33016c74fd9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.home_slider
+id: node.home_slider.changed
+field_name: changed
+entity_type: node
+bundle: home_slider
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

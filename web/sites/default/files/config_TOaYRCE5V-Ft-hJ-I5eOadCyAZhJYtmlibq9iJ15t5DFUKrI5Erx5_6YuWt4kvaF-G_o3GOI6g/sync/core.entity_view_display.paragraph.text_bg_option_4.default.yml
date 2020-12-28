@@ -1,0 +1,31 @@
+uuid: fe921fef-0f74-482d-bc49-fd73532a47cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_bg_option_4.field_description_of_paragraph
+    - field.field.paragraph.text_bg_option_4.field_title_of_paragraph
+    - paragraphs.paragraphs_type.text_bg_option_4
+  module:
+    - text
+id: paragraph.text_bg_option_4.default
+targetEntityType: paragraph
+bundle: text_bg_option_4
+mode: default
+content:
+  field_description_of_paragraph:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_title_of_paragraph:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

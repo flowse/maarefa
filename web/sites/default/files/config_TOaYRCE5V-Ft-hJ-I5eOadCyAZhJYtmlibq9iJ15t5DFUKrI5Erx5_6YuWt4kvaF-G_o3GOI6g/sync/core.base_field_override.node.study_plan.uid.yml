@@ -1,0 +1,20 @@
+uuid: dfe58829-0888-495f-a6ed-4f95d80918c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.study_plan
+id: node.study_plan.uid
+field_name: uid
+entity_type: node
+bundle: study_plan
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

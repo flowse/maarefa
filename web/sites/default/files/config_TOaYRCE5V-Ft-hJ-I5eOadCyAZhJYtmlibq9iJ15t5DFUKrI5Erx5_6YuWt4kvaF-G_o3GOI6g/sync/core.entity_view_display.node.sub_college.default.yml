@@ -1,0 +1,49 @@
+uuid: 3946bbb6-98fa-4ab3-848a-ea1200d719bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.sub_college.body
+    - field.field.node.sub_college.field_item_paragraph
+    - field.field.node.sub_college.field_main_college
+    - node.type.sub_college
+  module:
+    - entity_reference_revisions
+    - text
+    - user
+id: node.sub_college.default
+targetEntityType: node
+bundle: sub_college
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_item_paragraph:
+    weight: 102
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+  field_main_college:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

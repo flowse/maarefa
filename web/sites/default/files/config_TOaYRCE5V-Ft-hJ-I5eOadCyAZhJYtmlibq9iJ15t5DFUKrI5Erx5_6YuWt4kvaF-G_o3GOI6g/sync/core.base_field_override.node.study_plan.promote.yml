@@ -1,0 +1,22 @@
+uuid: 409970d6-92d5-40ab-8e5b-cd62aad0b304
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.study_plan
+id: node.study_plan.promote
+field_name: promote
+entity_type: node
+bundle: study_plan
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,22 @@
+uuid: c9fd80bd-550b-4d1f-a246-d42d65656aa2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrap_for_drupal_subtheme
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: bootstrap_for_drupal_subtheme_messages
+theme: bootstrap_for_drupal_subtheme
+region: header_special
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

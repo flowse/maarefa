@@ -1,0 +1,18 @@
+uuid: 41e6f2ef-7729-4f8b-95bd-8719945b26e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.text_image_option_2
+id: paragraph.text_image_option_2.admin_title
+field_name: admin_title
+entity_type: paragraph
+bundle: text_image_option_2
+label: 'Admin title'
+description: 'The admin title is used to help place paragraphs into panes.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

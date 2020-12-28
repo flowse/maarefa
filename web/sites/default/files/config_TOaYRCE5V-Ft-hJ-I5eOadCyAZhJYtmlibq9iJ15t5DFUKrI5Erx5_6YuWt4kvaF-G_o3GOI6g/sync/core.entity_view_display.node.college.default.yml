@@ -1,0 +1,40 @@
+uuid: d9fb6be5-464f-44c0-ac16-f202a0c886fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.college.body
+    - field.field.node.college.field_item_paragraph
+    - node.type.college
+  module:
+    - entity_reference_revisions
+    - text
+    - user
+id: node.college.default
+targetEntityType: node
+bundle: college
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_item_paragraph:
+    type: entity_reference_revisions_entity_view
+    weight: 102
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

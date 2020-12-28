@@ -1,0 +1,22 @@
+uuid: 3b633695-3c81-4045-8ec9-1758a40101d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.gallary
+id: node.gallary.promote
+field_name: promote
+entity_type: node
+bundle: gallary
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

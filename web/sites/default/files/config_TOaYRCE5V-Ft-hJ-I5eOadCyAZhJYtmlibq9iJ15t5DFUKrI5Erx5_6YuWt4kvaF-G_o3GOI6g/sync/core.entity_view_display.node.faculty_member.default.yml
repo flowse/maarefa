@@ -1,0 +1,40 @@
+uuid: 6ebd16a9-8fd4-4f1a-ace8-1e5d182e34cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.faculty_member.body
+    - field.field.node.faculty_member.field_item_paragraph
+    - node.type.faculty_member
+  module:
+    - entity_reference_revisions
+    - text
+    - user
+id: node.faculty_member.default
+targetEntityType: node
+bundle: faculty_member
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_item_paragraph:
+    weight: 102
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

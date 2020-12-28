@@ -1,0 +1,22 @@
+uuid: fca87ece-68a1-4120-8373-d08a78cd4112
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.scientific_research
+id: node.scientific_research.promote
+field_name: promote
+entity_type: node
+bundle: scientific_research
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
